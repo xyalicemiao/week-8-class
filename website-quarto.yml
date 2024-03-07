@@ -1,0 +1,10 @@
+project:
+  type:website
+  output-dir: docs
+
+website: 
+  title: "Alice Miao"
+  navbar:
+    left:
+      - href: index.qmd
+      - 
