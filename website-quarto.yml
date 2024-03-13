@@ -1,5 +1,5 @@
 project:
-  type:website
+  type: website
   output-dir: docs
 
 website: 
@@ -7,13 +7,10 @@ website:
   navbar:
     left:
       - href: index.qmd
-      - text: Bio  
+        text: Bio
+      - href: resume.pdf  
+        text: CV
         
-      - text: CV
-      - href: resume.pdf
-      - about.qmd
-      - contact.qmd
-
 format:
   html:
     theme: cosmo
